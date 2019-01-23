@@ -1,7 +1,7 @@
 # Pull base image.
 FROM ubuntu:16.04
 
-ENV ANSIBLE_VERSION 2.4.3.0
+ENV ANSIBLE_VERSION 2.3.2.0
 # Install Python.
 RUN \
   apt-get update && \
