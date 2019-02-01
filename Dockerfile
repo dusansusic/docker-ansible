@@ -18,4 +18,4 @@ RUN \
 WORKDIR /data
 
 # Define default command.
-CMD ["bash"]
+CMD ["ansible-playbook"]
